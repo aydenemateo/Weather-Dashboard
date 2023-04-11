@@ -1,0 +1,32 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.section {
+    display: flex;
+}
+
+.top-bar {
+    background-color: rgb(82, 40, 219);
+    color: white;
+    font-size: small;
+    padding: 1%;
+    display: flex;
+    justify-content: end;
+    padding-right: 20%;
+}
+
+.section {
+    padding-left: 3%;
+}
+
+.search-text {
+    padding: 1%;
+    font-weight: bolder;
+}
+
+#search-box {
+    margin: auto;
+    padding: 2%;
+    border-color: rgb(101, 99, 99);
+}
