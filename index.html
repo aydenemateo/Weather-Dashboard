@@ -18,17 +18,43 @@
     <header class="top-bar">
         <h1>Weather Dashboard</h1>
     </header>
+    <main>
+        <section id="aside-search">
+            <div id="search-bar-div">
+                <h2 id="search-title">Search for a City</h2>
+                <input type="search" id="search-input" placeholder="City Name" />
+                <div><button id="search-btn" type="button">Search</button></div>
+            </div>
+            <div id="search-history">
+                <h2 id="history">History</h2>
+                <div id="history-displayed"></div>
+            </div>
+        </section>
+        <section id="weather-display">
+            <div id="todays-weather"></div>
+            <div id="five-day-forecast">
+                <div id="card-1">
+                </div>
+                <div id="card-2">
+                </div>
+                <div id="card-3">
+                </div>
+                <div id="card-4">
+                </div>
+                <div id="card-5">
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
 
-    <section class="section">
-        <div class="col-3 search">
-            <h2 class="search-text">Search for a City:</h2>
-            <input class="search-input" type="text" placeholder="Search for a City" id="search-box">
-        </div>
-        <div class="col-8 location">
-            
+</html>
 
-        </div>
-    </section>
+
 
 </body>
 
